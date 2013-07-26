@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EBF57DE17A0B43B007E02B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBF57DD17A0B43B007E02B2 /* UIKit.framework */; };
+		8EBF57E017A0B43B007E02B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBF57DF17A0B43B007E02B2 /* Foundation.framework */; };
+		8EBF57E217A0B43B007E02B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBF57E117A0B43B007E02B2 /* CoreGraphics.framework */; };
+		8EBF57E817A0B43B007E02B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF57E617A0B43B007E02B2 /* InfoPlist.strings */; };
+		8EBF57EA17A0B43B007E02B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF57E917A0B43B007E02B2 /* main.m */; };
+		8EBF57EE17A0B43B007E02B2 /* sdaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF57ED17A0B43B007E02B2 /* sdaAppDelegate.m */; };
+		8EBF57F017A0B43B007E02B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF57EF17A0B43B007E02B2 /* Default.png */; };
+		8EBF57F217A0B43B007E02B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF57F117A0B43B007E02B2 /* Default@2x.png */; };
+		8EBF57F417A0B43B007E02B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF57F317A0B43B007E02B2 /* Default-568h@2x.png */; };
+		8EBF57F717A0B43B007E02B2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF57F517A0B43B007E02B2 /* MainStoryboard.storyboard */; };
+		8EBF57FA17A0B43B007E02B2 /* sdaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF57F917A0B43B007E02B2 /* sdaViewController.m */; };
+		8EBF580F17A0B908007E02B2 /* 7ww-salmona-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580117A0B908007E02B2 /* 7ww-salmona-x.jpg */; };
+		8EBF581017A0B908007E02B2 /* barbecue-chicken-ck-1835301-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580217A0B908007E02B2 /* barbecue-chicken-ck-1835301-x.jpg */; };
+		8EBF581117A0B908007E02B2 /* burger-su-1835316-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580317A0B908007E02B2 /* burger-su-1835316-x.jpg */; };
+		8EBF581217A0B908007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580417A0B908007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg */; };
+		8EBF581317A0B908007E02B2 /* New England Turkey Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580517A0B908007E02B2 /* New England Turkey Burger.jpg */; };
+		8EBF581417A0B908007E02B2 /* Out-n-In California Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580617A0B908007E02B2 /* Out-n-In California Burger.jpg */; };
+		8EBF581517A0B908007E02B2 /* Pacific Northwest Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580717A0B908007E02B2 /* Pacific Northwest Burger.jpg */; };
+		8EBF581617A0B908007E02B2 /* pineapple-salsa-ck-l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580817A0B908007E02B2 /* pineapple-salsa-ck-l.jpg */; };
+		8EBF581717A0B908007E02B2 /* rosemary-lamb-chops-cl-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580917A0B908007E02B2 /* rosemary-lamb-chops-cl-x.jpg */; };
+		8EBF581817A0B908007E02B2 /* seafood-kebabs-cl-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580A17A0B908007E02B2 /* seafood-kebabs-cl-x.jpg */; };
+		8EBF581917A0B908007E02B2 /* tilapia-soft-tacos-ay-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580B17A0B908007E02B2 /* tilapia-soft-tacos-ay-x.jpg */; };
+		8EBF581A17A0B908007E02B2 /* Tomato and Mozzerella Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580C17A0B908007E02B2 /* Tomato and Mozzerella Burger.jpg */; };
+		8EBF581B17A0B908007E02B2 /* Ultimate Burgers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580D17A0B908007E02B2 /* Ultimate Burgers.jpg */; };
+		8EBF581C17A0B908007E02B2 /* Vegetable Burgers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF580E17A0B908007E02B2 /* Vegetable Burgers.jpg */; };
+		8EBF582C17A0CEEC007E02B2 /* 7ww-salmona-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF581E17A0CEEB007E02B2 /* 7ww-salmona-x.jpg */; };
+		8EBF582D17A0CEEC007E02B2 /* barbecue-chicken-ck-1835301-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF581F17A0CEEC007E02B2 /* barbecue-chicken-ck-1835301-x.jpg */; };
+		8EBF582E17A0CEEC007E02B2 /* burger-su-1835316-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582017A0CEEC007E02B2 /* burger-su-1835316-x.jpg */; };
+		8EBF582F17A0CEEC007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582117A0CEEC007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg */; };
+		8EBF583017A0CEEC007E02B2 /* New England Turkey Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582217A0CEEC007E02B2 /* New England Turkey Burger.jpg */; };
+		8EBF583117A0CEEC007E02B2 /* Out-n-In California Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582317A0CEEC007E02B2 /* Out-n-In California Burger.jpg */; };
+		8EBF583217A0CEEC007E02B2 /* Pacific Northwest Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582417A0CEEC007E02B2 /* Pacific Northwest Burger.jpg */; };
+		8EBF583317A0CEEC007E02B2 /* pineapple-salsa-ck-l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582517A0CEEC007E02B2 /* pineapple-salsa-ck-l.jpg */; };
+		8EBF583417A0CEEC007E02B2 /* rosemary-lamb-chops-cl-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582617A0CEEC007E02B2 /* rosemary-lamb-chops-cl-x.jpg */; };
+		8EBF583517A0CEEC007E02B2 /* seafood-kebabs-cl-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582717A0CEEC007E02B2 /* seafood-kebabs-cl-x.jpg */; };
+		8EBF583617A0CEEC007E02B2 /* tilapia-soft-tacos-ay-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582817A0CEEC007E02B2 /* tilapia-soft-tacos-ay-x.jpg */; };
+		8EBF583717A0CEEC007E02B2 /* Tomato and Mozzerella Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582917A0CEEC007E02B2 /* Tomato and Mozzerella Burger.jpg */; };
+		8EBF583817A0CEEC007E02B2 /* Ultimate Burgers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582A17A0CEEC007E02B2 /* Ultimate Burgers.jpg */; };
+		8EBF583917A0CEEC007E02B2 /* Vegetable Burgers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF582B17A0CEEC007E02B2 /* Vegetable Burgers.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EBF57DA17A0B43B007E02B2 /* MenuList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBF57DD17A0B43B007E02B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EBF57DF17A0B43B007E02B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EBF57E117A0B43B007E02B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EBF57E517A0B43B007E02B2 /* MenuList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuList-Info.plist"; sourceTree = "<group>"; };
+		8EBF57E717A0B43B007E02B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EBF57E917A0B43B007E02B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EBF57EB17A0B43B007E02B2 /* MenuList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuList-Prefix.pch"; sourceTree = "<group>"; };
+		8EBF57EC17A0B43B007E02B2 /* sdaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sdaAppDelegate.h; sourceTree = "<group>"; };
+		8EBF57ED17A0B43B007E02B2 /* sdaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sdaAppDelegate.m; sourceTree = "<group>"; };
+		8EBF57EF17A0B43B007E02B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8EBF57F117A0B43B007E02B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8EBF57F317A0B43B007E02B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8EBF57F617A0B43B007E02B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8EBF57F817A0B43B007E02B2 /* sdaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sdaViewController.h; sourceTree = "<group>"; };
+		8EBF57F917A0B43B007E02B2 /* sdaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sdaViewController.m; sourceTree = "<group>"; };
+		8EBF580117A0B908007E02B2 /* 7ww-salmona-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7ww-salmona-x.jpg"; sourceTree = "<group>"; };
+		8EBF580217A0B908007E02B2 /* barbecue-chicken-ck-1835301-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbecue-chicken-ck-1835301-x.jpg"; sourceTree = "<group>"; };
+		8EBF580317A0B908007E02B2 /* burger-su-1835316-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burger-su-1835316-x.jpg"; sourceTree = "<group>"; };
+		8EBF580417A0B908007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grilled-peppers-and-sausage-sl-x.jpg"; sourceTree = "<group>"; };
+		8EBF580517A0B908007E02B2 /* New England Turkey Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "New England Turkey Burger.jpg"; sourceTree = "<group>"; };
+		8EBF580617A0B908007E02B2 /* Out-n-In California Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Out-n-In California Burger.jpg"; sourceTree = "<group>"; };
+		8EBF580717A0B908007E02B2 /* Pacific Northwest Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pacific Northwest Burger.jpg"; sourceTree = "<group>"; };
+		8EBF580817A0B908007E02B2 /* pineapple-salsa-ck-l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pineapple-salsa-ck-l.jpg"; sourceTree = "<group>"; };
+		8EBF580917A0B908007E02B2 /* rosemary-lamb-chops-cl-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rosemary-lamb-chops-cl-x.jpg"; sourceTree = "<group>"; };
+		8EBF580A17A0B908007E02B2 /* seafood-kebabs-cl-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "seafood-kebabs-cl-x.jpg"; sourceTree = "<group>"; };
+		8EBF580B17A0B908007E02B2 /* tilapia-soft-tacos-ay-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tilapia-soft-tacos-ay-x.jpg"; sourceTree = "<group>"; };
+		8EBF580C17A0B908007E02B2 /* Tomato and Mozzerella Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tomato and Mozzerella Burger.jpg"; sourceTree = "<group>"; };
+		8EBF580D17A0B908007E02B2 /* Ultimate Burgers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ultimate Burgers.jpg"; sourceTree = "<group>"; };
+		8EBF580E17A0B908007E02B2 /* Vegetable Burgers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vegetable Burgers.jpg"; sourceTree = "<group>"; };
+		8EBF581E17A0CEEB007E02B2 /* 7ww-salmona-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7ww-salmona-x.jpg"; sourceTree = "<group>"; };
+		8EBF581F17A0CEEC007E02B2 /* barbecue-chicken-ck-1835301-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbecue-chicken-ck-1835301-x.jpg"; sourceTree = "<group>"; };
+		8EBF582017A0CEEC007E02B2 /* burger-su-1835316-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burger-su-1835316-x.jpg"; sourceTree = "<group>"; };
+		8EBF582117A0CEEC007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grilled-peppers-and-sausage-sl-x.jpg"; sourceTree = "<group>"; };
+		8EBF582217A0CEEC007E02B2 /* New England Turkey Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "New England Turkey Burger.jpg"; sourceTree = "<group>"; };
+		8EBF582317A0CEEC007E02B2 /* Out-n-In California Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Out-n-In California Burger.jpg"; sourceTree = "<group>"; };
+		8EBF582417A0CEEC007E02B2 /* Pacific Northwest Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pacific Northwest Burger.jpg"; sourceTree = "<group>"; };
+		8EBF582517A0CEEC007E02B2 /* pineapple-salsa-ck-l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pineapple-salsa-ck-l.jpg"; sourceTree = "<group>"; };
+		8EBF582617A0CEEC007E02B2 /* rosemary-lamb-chops-cl-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rosemary-lamb-chops-cl-x.jpg"; sourceTree = "<group>"; };
+		8EBF582717A0CEEC007E02B2 /* seafood-kebabs-cl-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "seafood-kebabs-cl-x.jpg"; sourceTree = "<group>"; };
+		8EBF582817A0CEEC007E02B2 /* tilapia-soft-tacos-ay-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tilapia-soft-tacos-ay-x.jpg"; sourceTree = "<group>"; };
+		8EBF582917A0CEEC007E02B2 /* Tomato and Mozzerella Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tomato and Mozzerella Burger.jpg"; sourceTree = "<group>"; };
+		8EBF582A17A0CEEC007E02B2 /* Ultimate Burgers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ultimate Burgers.jpg"; sourceTree = "<group>"; };
+		8EBF582B17A0CEEC007E02B2 /* Vegetable Burgers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vegetable Burgers.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EBF57D717A0B43B007E02B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBF57DE17A0B43B007E02B2 /* UIKit.framework in Frameworks */,
+				8EBF57E017A0B43B007E02B2 /* Foundation.framework in Frameworks */,
+				8EBF57E217A0B43B007E02B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EBF57D117A0B43B007E02B2 = {
+			isa = PBXGroup;
+			children = (
+				8EBF581D17A0CEEB007E02B2 /* Images */,
+				8EBF57E317A0B43B007E02B2 /* MenuList */,
+				8EBF57DC17A0B43B007E02B2 /* Frameworks */,
+				8EBF57DB17A0B43B007E02B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBF57DB17A0B43B007E02B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF57DA17A0B43B007E02B2 /* MenuList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBF57DC17A0B43B007E02B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF57DD17A0B43B007E02B2 /* UIKit.framework */,
+				8EBF57DF17A0B43B007E02B2 /* Foundation.framework */,
+				8EBF57E117A0B43B007E02B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EBF57E317A0B43B007E02B2 /* MenuList */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF580017A0B908007E02B2 /* Images */,
+				8EBF57EC17A0B43B007E02B2 /* sdaAppDelegate.h */,
+				8EBF57ED17A0B43B007E02B2 /* sdaAppDelegate.m */,
+				8EBF57F517A0B43B007E02B2 /* MainStoryboard.storyboard */,
+				8EBF57F817A0B43B007E02B2 /* sdaViewController.h */,
+				8EBF57F917A0B43B007E02B2 /* sdaViewController.m */,
+				8EBF57E417A0B43B007E02B2 /* Supporting Files */,
+			);
+			path = MenuList;
+			sourceTree = "<group>";
+		};
+		8EBF57E417A0B43B007E02B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF57E517A0B43B007E02B2 /* MenuList-Info.plist */,
+				8EBF57E617A0B43B007E02B2 /* InfoPlist.strings */,
+				8EBF57E917A0B43B007E02B2 /* main.m */,
+				8EBF57EB17A0B43B007E02B2 /* MenuList-Prefix.pch */,
+				8EBF57EF17A0B43B007E02B2 /* Default.png */,
+				8EBF57F117A0B43B007E02B2 /* Default@2x.png */,
+				8EBF57F317A0B43B007E02B2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EBF580017A0B908007E02B2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF580117A0B908007E02B2 /* 7ww-salmona-x.jpg */,
+				8EBF580217A0B908007E02B2 /* barbecue-chicken-ck-1835301-x.jpg */,
+				8EBF580317A0B908007E02B2 /* burger-su-1835316-x.jpg */,
+				8EBF580417A0B908007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg */,
+				8EBF580517A0B908007E02B2 /* New England Turkey Burger.jpg */,
+				8EBF580617A0B908007E02B2 /* Out-n-In California Burger.jpg */,
+				8EBF580717A0B908007E02B2 /* Pacific Northwest Burger.jpg */,
+				8EBF580817A0B908007E02B2 /* pineapple-salsa-ck-l.jpg */,
+				8EBF580917A0B908007E02B2 /* rosemary-lamb-chops-cl-x.jpg */,
+				8EBF580A17A0B908007E02B2 /* seafood-kebabs-cl-x.jpg */,
+				8EBF580B17A0B908007E02B2 /* tilapia-soft-tacos-ay-x.jpg */,
+				8EBF580C17A0B908007E02B2 /* Tomato and Mozzerella Burger.jpg */,
+				8EBF580D17A0B908007E02B2 /* Ultimate Burgers.jpg */,
+				8EBF580E17A0B908007E02B2 /* Vegetable Burgers.jpg */,
+			);
+			name = Images;
+			path = ../../Menus/Images;
+			sourceTree = "<group>";
+		};
+		8EBF581D17A0CEEB007E02B2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF581E17A0CEEB007E02B2 /* 7ww-salmona-x.jpg */,
+				8EBF581F17A0CEEC007E02B2 /* barbecue-chicken-ck-1835301-x.jpg */,
+				8EBF582017A0CEEC007E02B2 /* burger-su-1835316-x.jpg */,
+				8EBF582117A0CEEC007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg */,
+				8EBF582217A0CEEC007E02B2 /* New England Turkey Burger.jpg */,
+				8EBF582317A0CEEC007E02B2 /* Out-n-In California Burger.jpg */,
+				8EBF582417A0CEEC007E02B2 /* Pacific Northwest Burger.jpg */,
+				8EBF582517A0CEEC007E02B2 /* pineapple-salsa-ck-l.jpg */,
+				8EBF582617A0CEEC007E02B2 /* rosemary-lamb-chops-cl-x.jpg */,
+				8EBF582717A0CEEC007E02B2 /* seafood-kebabs-cl-x.jpg */,
+				8EBF582817A0CEEC007E02B2 /* tilapia-soft-tacos-ay-x.jpg */,
+				8EBF582917A0CEEC007E02B2 /* Tomato and Mozzerella Burger.jpg */,
+				8EBF582A17A0CEEC007E02B2 /* Ultimate Burgers.jpg */,
+				8EBF582B17A0CEEC007E02B2 /* Vegetable Burgers.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EBF57D917A0B43B007E02B2 /* MenuList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBF57FD17A0B43B007E02B2 /* Build configuration list for PBXNativeTarget "MenuList" */;
+			buildPhases = (
+				8EBF57D617A0B43B007E02B2 /* Sources */,
+				8EBF57D717A0B43B007E02B2 /* Frameworks */,
+				8EBF57D817A0B43B007E02B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuList;
+			productName = MenuList;
+			productReference = 8EBF57DA17A0B43B007E02B2 /* MenuList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EBF57D217A0B43B007E02B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = sda;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Solomon Amos";
+			};
+			buildConfigurationList = 8EBF57D517A0B43B007E02B2 /* Build configuration list for PBXProject "MenuList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EBF57D117A0B43B007E02B2;
+			productRefGroup = 8EBF57DB17A0B43B007E02B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EBF57D917A0B43B007E02B2 /* MenuList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EBF57D817A0B43B007E02B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBF57E817A0B43B007E02B2 /* InfoPlist.strings in Resources */,
+				8EBF57F017A0B43B007E02B2 /* Default.png in Resources */,
+				8EBF57F217A0B43B007E02B2 /* Default@2x.png in Resources */,
+				8EBF57F417A0B43B007E02B2 /* Default-568h@2x.png in Resources */,
+				8EBF57F717A0B43B007E02B2 /* MainStoryboard.storyboard in Resources */,
+				8EBF580F17A0B908007E02B2 /* 7ww-salmona-x.jpg in Resources */,
+				8EBF581017A0B908007E02B2 /* barbecue-chicken-ck-1835301-x.jpg in Resources */,
+				8EBF581117A0B908007E02B2 /* burger-su-1835316-x.jpg in Resources */,
+				8EBF581217A0B908007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg in Resources */,
+				8EBF581317A0B908007E02B2 /* New England Turkey Burger.jpg in Resources */,
+				8EBF581417A0B908007E02B2 /* Out-n-In California Burger.jpg in Resources */,
+				8EBF581517A0B908007E02B2 /* Pacific Northwest Burger.jpg in Resources */,
+				8EBF581617A0B908007E02B2 /* pineapple-salsa-ck-l.jpg in Resources */,
+				8EBF581717A0B908007E02B2 /* rosemary-lamb-chops-cl-x.jpg in Resources */,
+				8EBF581817A0B908007E02B2 /* seafood-kebabs-cl-x.jpg in Resources */,
+				8EBF581917A0B908007E02B2 /* tilapia-soft-tacos-ay-x.jpg in Resources */,
+				8EBF581A17A0B908007E02B2 /* Tomato and Mozzerella Burger.jpg in Resources */,
+				8EBF581B17A0B908007E02B2 /* Ultimate Burgers.jpg in Resources */,
+				8EBF581C17A0B908007E02B2 /* Vegetable Burgers.jpg in Resources */,
+				8EBF582C17A0CEEC007E02B2 /* 7ww-salmona-x.jpg in Resources */,
+				8EBF582D17A0CEEC007E02B2 /* barbecue-chicken-ck-1835301-x.jpg in Resources */,
+				8EBF582E17A0CEEC007E02B2 /* burger-su-1835316-x.jpg in Resources */,
+				8EBF582F17A0CEEC007E02B2 /* grilled-peppers-and-sausage-sl-x.jpg in Resources */,
+				8EBF583017A0CEEC007E02B2 /* New England Turkey Burger.jpg in Resources */,
+				8EBF583117A0CEEC007E02B2 /* Out-n-In California Burger.jpg in Resources */,
+				8EBF583217A0CEEC007E02B2 /* Pacific Northwest Burger.jpg in Resources */,
+				8EBF583317A0CEEC007E02B2 /* pineapple-salsa-ck-l.jpg in Resources */,
+				8EBF583417A0CEEC007E02B2 /* rosemary-lamb-chops-cl-x.jpg in Resources */,
+				8EBF583517A0CEEC007E02B2 /* seafood-kebabs-cl-x.jpg in Resources */,
+				8EBF583617A0CEEC007E02B2 /* tilapia-soft-tacos-ay-x.jpg in Resources */,
+				8EBF583717A0CEEC007E02B2 /* Tomato and Mozzerella Burger.jpg in Resources */,
+				8EBF583817A0CEEC007E02B2 /* Ultimate Burgers.jpg in Resources */,
+				8EBF583917A0CEEC007E02B2 /* Vegetable Burgers.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EBF57D617A0B43B007E02B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBF57EA17A0B43B007E02B2 /* main.m in Sources */,
+				8EBF57EE17A0B43B007E02B2 /* sdaAppDelegate.m in Sources */,
+				8EBF57FA17A0B43B007E02B2 /* sdaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EBF57E617A0B43B007E02B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBF57E717A0B43B007E02B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EBF57F517A0B43B007E02B2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBF57F617A0B43B007E02B2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EBF57FB17A0B43B007E02B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EBF57FC17A0B43B007E02B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EBF57FE17A0B43B007E02B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuList/MenuList-Prefix.pch";
+				INFOPLIST_FILE = "MenuList/MenuList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EBF57FF17A0B43B007E02B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuList/MenuList-Prefix.pch";
+				INFOPLIST_FILE = "MenuList/MenuList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EBF57D517A0B43B007E02B2 /* Build configuration list for PBXProject "MenuList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBF57FB17A0B43B007E02B2 /* Debug */,
+				8EBF57FC17A0B43B007E02B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBF57FD17A0B43B007E02B2 /* Build configuration list for PBXNativeTarget "MenuList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBF57FE17A0B43B007E02B2 /* Debug */,
+				8EBF57FF17A0B43B007E02B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EBF57D217A0B43B007E02B2 /* Project object */;
+}

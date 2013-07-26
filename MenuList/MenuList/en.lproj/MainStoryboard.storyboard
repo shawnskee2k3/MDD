@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wOd-Ux-CoN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - N.E. Turkey Burger-->
+        <scene sceneID="4SW-pz-Ejp">
+            <objects>
+                <viewController id="Kpe-OY-yig" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U8M-s0-ntf">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="va8-BX-c9S">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="182" id="Wcz-tY-pCw"/>
+                                </constraints>
+                                <mutableString key="text">                                                   Ingredients
+
+    1 tablespoon olive oil 
+    2 cups thinly sliced onion 
+    3/4 cup Samuel Adams Summer Ale
+    1 pound ground turkey 
+    1/4 teaspoon kosher salt
+    1/4 teaspoon freshly ground black pepper
+    Cooking spray 
+    1.5 ounces reduced-fat Vermont white cheddar cheese, shaved
+    4 teaspoons canola mayonnaise   2 teaspoons whole-grain mustard 
+    4 (1 1/2-ounce) hamburger buns, toasted 
+    4 small green leaf lettuce leaves
+    4 (1/4-inch-thick) slices tomato </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="New England Turkey Burger.jpg" highlightedImage="New England Turkey Burger.jpg" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cgh-8c-0ej">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="b8V-X5-V4R"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cgh-8c-0ej" firstAttribute="top" secondItem="U8M-s0-ntf" secondAttribute="top" constant="10" id="7bb-dp-2Bs"/>
+                            <constraint firstAttribute="trailing" secondItem="va8-BX-c9S" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Q1F-dW-WTj"/>
+                            <constraint firstAttribute="bottom" secondItem="va8-BX-c9S" secondAttribute="bottom" constant="29" id="cJe-GT-nGS"/>
+                            <constraint firstAttribute="trailing" secondItem="cgh-8c-0ej" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="cUc-zl-fgK"/>
+                            <constraint firstItem="va8-BX-c9S" firstAttribute="leading" secondItem="U8M-s0-ntf" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="nZT-lp-ptr"/>
+                            <constraint firstItem="cgh-8c-0ej" firstAttribute="leading" secondItem="U8M-s0-ntf" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="pQl-RK-Rhk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="N.E. Turkey Burger" id="du2-4a-u5y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKD-km-aoi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="328" y="431"/>
+        </scene>
+        <!--Sda View Controller - Menu Bar -->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="sdaViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csz-Nv-ibT">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="jwi-y4-8dU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="BBQ Chicken" backgroundImage="barbecue-chicken-ck-1835301-x.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qdk-SU-m2h" kind="push" id="XBG-Za-hsY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPW-rG-Jkq">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="9EZ-em-qb4"/>
+                                    <constraint firstAttribute="width" constant="140" id="Irq-bc-U3V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Grilled Peppers" backgroundImage="grilled-peppers-and-sausage-sl-x.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VMT-ce-nED" kind="push" id="VER-Hf-QbJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIb-PK-g5d">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="ggG-Eu-y3e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="New E. Turkey Burger" backgroundImage="New England Turkey Burger.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Kpe-OY-yig" kind="push" id="Q9F-st-zZ5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgI-Qr-Zl1">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Lamb Chops" backgroundImage="rosemary-lamb-chops-cl-x.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AEc-tA-rkl" kind="push" id="Hwq-3N-t3g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YbO-yT-wRu">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="j4h-6w-Uf6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Tomato Moz Burger" backgroundImage="Tomato and Mozzerella Burger.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xzC-M5-2Mv" kind="push" id="wsB-Pg-4v7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jry-Yc-Wwe">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Ult. burger" backgroundImage="Ultimate Burgers.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7sN-Uw-FAG" kind="push" id="SYc-r9-85Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rgI-Qr-Zl1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="136" id="2mJ-YK-tIn"/>
+                            <constraint firstItem="csz-Nv-ibT" firstAttribute="bottom" secondItem="bPW-rG-Jkq" secondAttribute="bottom" type="default" id="3Jj-tu-lWj"/>
+                            <constraint firstItem="lIb-PK-g5d" firstAttribute="trailing" secondItem="YbO-yT-wRu" secondAttribute="trailing" type="default" id="3lq-eh-VRT"/>
+                            <constraint firstItem="rgI-Qr-Zl1" firstAttribute="top" secondItem="lIb-PK-g5d" secondAttribute="top" type="default" id="8ce-sY-yHA"/>
+                            <constraint firstItem="rgI-Qr-Zl1" firstAttribute="bottom" secondItem="lIb-PK-g5d" secondAttribute="bottom" type="default" id="8hj-9b-Rxx"/>
+                            <constraint firstAttribute="bottom" secondItem="YbO-yT-wRu" secondAttribute="bottom" constant="25" id="DtL-A5-zbU"/>
+                            <constraint firstItem="rgI-Qr-Zl1" firstAttribute="leading" secondItem="bPW-rG-Jkq" secondAttribute="leading" type="default" id="GJn-wc-AAN"/>
+                            <constraint firstItem="csz-Nv-ibT" firstAttribute="trailing" secondItem="lIb-PK-g5d" secondAttribute="trailing" type="default" id="Giu-Jm-c2i"/>
+                            <constraint firstItem="lIb-PK-g5d" firstAttribute="leading" secondItem="YbO-yT-wRu" secondAttribute="leading" type="default" id="LOy-9S-qn3"/>
+                            <constraint firstItem="Jry-Yc-Wwe" firstAttribute="top" secondItem="YbO-yT-wRu" secondAttribute="top" type="default" id="Oso-3d-Zp6"/>
+                            <constraint firstItem="Jry-Yc-Wwe" firstAttribute="leading" secondItem="rgI-Qr-Zl1" secondAttribute="leading" type="default" id="SLu-63-HTP"/>
+                            <constraint firstItem="csz-Nv-ibT" firstAttribute="leading" secondItem="lIb-PK-g5d" secondAttribute="leading" type="default" id="U2L-jk-DkC"/>
+                            <constraint firstAttribute="trailing" secondItem="bPW-rG-Jkq" secondAttribute="trailing" constant="14" id="cWC-OM-N91"/>
+                            <constraint firstItem="csz-Nv-ibT" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="10" id="cyt-ZQ-Z4p"/>
+                            <constraint firstItem="Jry-Yc-Wwe" firstAttribute="trailing" secondItem="rgI-Qr-Zl1" secondAttribute="trailing" type="default" id="kXf-wR-cVd"/>
+                            <constraint firstItem="bPW-rG-Jkq" firstAttribute="centerY" secondItem="csz-Nv-ibT" secondAttribute="centerY" type="default" id="kZ7-OZ-GwM"/>
+                            <constraint firstItem="bPW-rG-Jkq" firstAttribute="trailing" secondItem="rgI-Qr-Zl1" secondAttribute="trailing" type="default" id="tp2-T9-Dxz"/>
+                            <constraint firstItem="Jry-Yc-Wwe" firstAttribute="bottom" secondItem="YbO-yT-wRu" secondAttribute="bottom" type="default" id="v8B-pE-O2G"/>
+                            <constraint firstItem="csz-Nv-ibT" firstAttribute="top" secondItem="3" secondAttribute="top" constant="5" id="y3d-Zv-DlL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Menu Bar " id="31v-2w-tYm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725" y="431"/>
+        </scene>
+        <!--View Controller - Lamb Chops-->
+        <scene sceneID="Ddz-eJ-YpG">
+            <objects>
+                <viewController id="AEc-tA-rkl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vmt-Qx-n9P">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G6J-uh-tm9">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="FKQ-sa-6Fo"/>
+                                </constraints>
+                                <string key="text"> 8 (1-inch-thick) lamb rib chops (about 1 1/4 pounds)
+1 tablespoon extra-virgin olive oil $
+2 tablespoons chopped fresh rosemary
+1 teaspoon ground coriander
+1 teaspoon kosher salt
+3/4 teaspoon coarsely ground pepper
+2 garlic cloves, minced
+Mint Chimichurri</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="rosemary-lamb-chops-cl-x.jpg" highlightedImage="rosemary-lamb-chops-cl-x.jpg" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UcI-F1-ztI">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="Z9k-UX-loo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="G6J-uh-tm9" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="50f-b7-71B"/>
+                            <constraint firstAttribute="trailing" secondItem="UcI-F1-ztI" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="82C-AI-oFZ"/>
+                            <constraint firstItem="UcI-F1-ztI" firstAttribute="top" secondItem="Vmt-Qx-n9P" secondAttribute="top" constant="7" id="Gzg-w1-0hU"/>
+                            <constraint firstItem="G6J-uh-tm9" firstAttribute="leading" secondItem="Vmt-Qx-n9P" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="MaT-ZN-UJ7"/>
+                            <constraint firstItem="UcI-F1-ztI" firstAttribute="leading" secondItem="Vmt-Qx-n9P" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="bCi-Hf-ohj"/>
+                            <constraint firstAttribute="trailing" secondItem="G6J-uh-tm9" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="cE6-ux-Cuy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Lamb Chops" id="Kd1-3n-wbn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QhN-GM-Q9Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1143" y="427"/>
+        </scene>
+        <!--View Controller - Grilled Peppers-->
+        <scene sceneID="w4e-ZQ-lQE">
+            <objects>
+                <viewController id="VMT-ce-nED" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qxg-Gf-gqo">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nC4-If-wHS">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="x7k-K7-9WM"/>
+                                </constraints>
+                                <mutableString key="text">                                                 Ingredients
+    2 medium-size red bell peppers, cut into quarters
+    2 medium-size sweet onions, cut into quarters $
+    2 tablespoons olive oil $
+    1 teaspoon fresh thyme leaves
+    1 teaspoon salt, divided
+    1 (19.76-oz.) package garlic pork sausage links $
+    2 (14.5-oz.) cans chicken broth
+    1 cup uncooked quick-cooking grits
+    2 tablespoons butter
+    1 cup grated Parmesan cheese
+    1/3 cup chopped fresh basil
+    1/2 teaspoon freshly ground pepper</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="grilled-peppers-and-sausage-sl-x.jpg" highlightedImage="grilled-peppers-and-sausage-sl-x.jpg" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DqS-p7-E2L">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="FUo-mx-j8Y"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DqS-p7-E2L" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="W7I-4q-gOw"/>
+                            <constraint firstAttribute="bottom" secondItem="nC4-If-wHS" secondAttribute="bottom" constant="34" id="aBL-Xj-yYl"/>
+                            <constraint firstItem="DqS-p7-E2L" firstAttribute="leading" secondItem="Qxg-Gf-gqo" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="mfi-Gr-ZYD"/>
+                            <constraint firstItem="nC4-If-wHS" firstAttribute="leading" secondItem="Qxg-Gf-gqo" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="oRJ-NT-M7w"/>
+                            <constraint firstItem="DqS-p7-E2L" firstAttribute="top" secondItem="Qxg-Gf-gqo" secondAttribute="top" constant="11" id="rVg-PL-G0N"/>
+                            <constraint firstAttribute="trailing" secondItem="nC4-If-wHS" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="zTH-iN-iyL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Grilled Peppers" id="U7e-Fw-Zdh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzg-US-xKI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1567" y="429"/>
+        </scene>
+        <!--View Controller - BBQ Chicken-->
+        <scene sceneID="tOB-lq-TVs">
+            <objects>
+                <viewController id="qdk-SU-m2h" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G2K-zB-BDd">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="barbecue-chicken-ck-1835301-x.jpg" highlightedImage="barbecue-chicken-ck-1835301-x.jpg" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AqZ-Ip-0UM">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="9AI-5l-Tbi"/>
+                                    <constraint firstAttribute="height" constant="220" id="bPL-kZ-pW8"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L75-vq-yyv">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="iig-Ls-wXe"/>
+                                </constraints>
+                                <string key="text">                                                 Ingredients
+    1 teaspoon sugar $
+    1 teaspoon chili powder
+    2 teaspoons olive oil $
+    1/2 teaspoon salt
+    1/4 teaspoon garlic powder
+    1/4 teaspoon ground cumin
+    1/8 teaspoon ground ginger
+    1/8 teaspoon ground cinnamon
+    1/8 teaspoon freshly ground black pepper
+    2 (8-ounce) bone-in chicken breast halves $
+    Cooking spray $</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L75-vq-yyv" firstAttribute="leading" secondItem="G2K-zB-BDd" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="7Y3-ur-JTY"/>
+                            <constraint firstItem="AqZ-Ip-0UM" firstAttribute="leading" secondItem="G2K-zB-BDd" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="DuI-JD-VBO"/>
+                            <constraint firstAttribute="trailing" secondItem="L75-vq-yyv" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="bBS-fK-FHN"/>
+                            <constraint firstItem="AqZ-Ip-0UM" firstAttribute="top" secondItem="G2K-zB-BDd" secondAttribute="top" constant="13" id="gmP-NK-aIE"/>
+                            <constraint firstAttribute="bottom" secondItem="L75-vq-yyv" secondAttribute="bottom" constant="28" id="xAh-F8-ZNx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="BBQ Chicken" id="FoT-Ht-qR3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SvE-4b-8kt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725" y="-267"/>
+        </scene>
+        <!--View Controller - Tomato Moz. Burger-->
+        <scene sceneID="AmD-TI-hgb">
+            <objects>
+                <viewController id="xzC-M5-2Mv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bSe-G5-6xe">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xBc-f5-brh">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="172" id="KL9-hB-PCC"/>
+                                </constraints>
+                                <string key="text">                       Ingredients
+
+    6 large ripe tomatoes (about 2 1/2 pounds)
+    2 tablespoons olive oil
+    kosher salt and black pepper
+    1 large clove garlic, thinly sliced
+    8 ounces fresh unsalted mozzarella
+    2 sprigs fresh basil, leaves picked
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Tomato and Mozzerella Burger.jpg" highlightedImage="Tomato and Mozzerella Burger.jpg" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oPy-vV-jC3">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="X8J-Tf-azX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xBc-f5-brh" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="2Gd-n6-kJM"/>
+                            <constraint firstItem="oPy-vV-jC3" firstAttribute="top" secondItem="bSe-G5-6xe" secondAttribute="top" constant="11" id="3d7-pI-Igv"/>
+                            <constraint firstItem="oPy-vV-jC3" firstAttribute="leading" secondItem="bSe-G5-6xe" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="opp-rW-VLy"/>
+                            <constraint firstAttribute="trailing" secondItem="oPy-vV-jC3" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="qh2-kp-4pa"/>
+                            <constraint firstAttribute="bottom" secondItem="xBc-f5-brh" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="uMe-jV-uJJ"/>
+                            <constraint firstItem="xBc-f5-brh" firstAttribute="leading" secondItem="bSe-G5-6xe" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wYd-9M-zbR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tomato Moz. Burger" id="IWQ-M7-sYa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Sm-Wz-5HB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1147" y="-267"/>
+        </scene>
+        <!--View Controller - Ultimate Burger-->
+        <scene sceneID="wDO-4h-cii">
+            <objects>
+                <viewController id="7sN-Uw-FAG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bc-ae-fLd">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mVQ-PB-OSU">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="phA-1A-1Oz"/>
+                                </constraints>
+                                <string key="text">                                                 Ingredients
+    3 pounds ground brisket or chuck
+    Kosher salt and freshly ground black pepper
+    freshly ground black pepper
+    8 hamburger buns, split $
+    8 thin slices Swiss cheese
+    Sautéed Mushrooms $
+    Caramelized Onions $
+    Tomatoes with Sea Salt and Chives
+    Bacon with Black Pepper and Rosemary
+    Herbed Horseradish Mayonnaise
+    Chile Ketchup</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Ultimate Burgers.jpg" highlightedImage="Ultimate Burgers.jpg" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eIH-aW-1B7">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="4SI-UJ-bxn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mVQ-PB-OSU" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="D46-OF-407"/>
+                            <constraint firstItem="eIH-aW-1B7" firstAttribute="leading" secondItem="8bc-ae-fLd" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="QdO-aT-g4m"/>
+                            <constraint firstAttribute="bottom" secondItem="mVQ-PB-OSU" secondAttribute="bottom" constant="35" id="YKJ-b9-FMC"/>
+                            <constraint firstItem="mVQ-PB-OSU" firstAttribute="leading" secondItem="8bc-ae-fLd" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ybc-aF-40y"/>
+                            <constraint firstAttribute="trailing" secondItem="eIH-aW-1B7" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="iRa-fv-xFA"/>
+                            <constraint firstItem="eIH-aW-1B7" firstAttribute="top" secondItem="8bc-ae-fLd" secondAttribute="top" constant="13" id="wYi-WC-Z4F"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ultimate Burger" id="RV6-n3-hZf">
+                        <barButtonItem key="rightBarButtonItem" id="8yA-08-rhc">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PDk-7k-ByX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569" y="-267"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Opc-nQ-YwJ">
+            <objects>
+                <navigationController id="wOd-Ux-CoN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="r7V-C4-Tqy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="tdf-2u-hwb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8bw-Bh-c8d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="328" y="-267"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="New England Turkey Burger.jpg" width="300" height="300"/>
+        <image name="Tomato and Mozzerella Burger.jpg" width="300" height="300"/>
+        <image name="Ultimate Burgers.jpg" width="300" height="300"/>
+        <image name="barbecue-chicken-ck-1835301-x.jpg" width="420" height="420"/>
+        <image name="grilled-peppers-and-sausage-sl-x.jpg" width="420" height="420"/>
+        <image name="rosemary-lamb-chops-cl-x.jpg" width="420" height="420"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="sdaViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/sdaViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
